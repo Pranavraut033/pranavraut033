@@ -1,4 +1,4 @@
-<a href="https://platane.me/snk/" target="_blank"><img src="contributions.svg"></a>
+<a href="https://platane.me/snk/" target="_blank"><img src="contribution.svg"></a>
 
 
 ![Pranavraut033's github stats](https://github-readme-stats.vercel.app/api?username=pranavraut033&show_icons=true&theme=dracula) 
