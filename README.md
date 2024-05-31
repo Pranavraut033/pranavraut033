@@ -1,5 +1,15 @@
-## Hi there 👋
+<div style="display:flex;flex-direction:column;justity-items:center">
 
+![Pranavraut033's github stats](https://github-readme-stats.vercel.app/api?username=pranavraut033&show_icons=true&theme=dracula) 
+<br/>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pranavraut033&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+  
+</div>
+<br/>
+<br/>
+ 
+ ![](https://komarev.com/ghpvc/?username=pranavraut033&color=lightgrey)
+ 
 <!--
 **Pranavraut033/pranavraut033** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
