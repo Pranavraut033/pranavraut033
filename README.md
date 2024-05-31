@@ -1,10 +1,10 @@
-<div style="display:flex;flex-direction:column;justity-items:center">
+<a href="https://platane.me/snk/" target="_blank"><img src="contributions.svg"></a>
+
 
 ![Pranavraut033's github stats](https://github-readme-stats.vercel.app/api?username=pranavraut033&show_icons=true&theme=dracula) 
 <br/>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pranavraut033&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
   
-</div>
 <br/>
 <br/>
  
