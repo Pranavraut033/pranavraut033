@@ -16,16 +16,16 @@
 
 </div>
 
-I'm an AI engineer with full-stack roots — 5+ years across TypeScript, Node.js, React, and Next.js, now focused on LLM integrations, agentic coding workflows, and multi-provider tooling. I build **local-first, bring-your-own-key LLM products** — apps where your data and API keys never leave your machine — and publish the infrastructure behind them as open-source npm packages. Before that: production systems at scale — on-chain data indexers, microservices, and data pipelines. Currently finishing an M.Sc. in Computer Science in Berlin, with a thesis on human-in-the-loop override policies for AI decision systems.
+I'm an AI engineer with full-stack roots: 5+ years across TypeScript, Node.js, React, and Next.js, now focused on LLM integrations, agentic coding workflows, and multi-provider tooling. I build **local-first, bring-your-own-key LLM products** (apps where your data and API keys never leave your machine) and open-source the infrastructure behind them as npm packages. Before that, I worked on production systems at scale: on-chain data indexers, microservices, data pipelines. I'm finishing an M.Sc. in Computer Science in Berlin, with a thesis on human-in-the-loop override policies for AI decision systems.
 
 ## 🤖 AI Engineering
 
-**[Udaan — AI Resume Builder](https://github.com/Pranavraut033/resume-builder)** ✈️
-Local-first AI desktop app (Next.js 16 + Tauri 2 + SQLite) that reads a job description and generates a tailored, ATS-friendly resume and cover letter. Chat assistant for edits, ATS guidance, and interview prep; an AI humanizer with reviewable diffs; WYSIWYG editing on the rendered document. Runs on a multi-provider abstraction I built (OpenAI, Claude, Gemini, Grok, Perplexity, keyless gateway — or fully offline via local Ollama), with fixture-based testing, token-usage tracking, and AES-256-GCM-encrypted key storage. Prebuilt for macOS, Windows & Linux on the [releases page](https://github.com/Pranavraut033/resume-builder/releases).
+**[Udaan: AI Resume Builder](https://github.com/Pranavraut033/resume-builder)** ✈️
+Local-first AI desktop app (Next.js 16 + Tauri 2 + SQLite) that reads a job description and generates a tailored, ATS-friendly resume and cover letter. Chat assistant for edits, ATS guidance, and interview prep; an AI humanizer with reviewable diffs; WYSIWYG editing on the rendered document. Runs on a multi-provider abstraction I built (OpenAI, Claude, Gemini, Grok, Perplexity, keyless gateway, or fully offline via local Ollama), with fixture-based testing, token-usage tracking, and AES-256-GCM-encrypted key storage. Prebuilt for macOS, Windows & Linux on the [releases page](https://github.com/Pranavraut033/resume-builder/releases).
 
-**[@pranavraut033/llm-core](https://www.npmjs.com/package/@pranavraut033/llm-core)** — the engine underneath: a client-side, BYOK-first LLM toolkit with a typed provider registry, streaming completion/chat/structured-output controllers, React hooks, and a Handlebars prompt-template system. No server, no lock-in.
+**[@pranavraut033/llm-core](https://www.npmjs.com/package/@pranavraut033/llm-core)**: the engine underneath, a client-side, BYOK-first LLM toolkit with a typed provider registry, streaming completion/chat/structured-output controllers, React hooks, and a Handlebars prompt-template system. It runs entirely client-side, so there's no server to maintain and no provider lock-in.
 
-**[@pranavraut033/ats-checker](https://www.npmjs.com/package/@pranavraut033/ats-checker)** — npm package that scores resumes for ATS compatibility, so the generated documents actually make it past the bots.
+**[@pranavraut033/ats-checker](https://www.npmjs.com/package/@pranavraut033/ats-checker)**: npm package that scores resumes for ATS compatibility, so the generated documents actually make it past the bots.
 
 > The pattern: build the AI product, then open-source the infrastructure it runs on.
 
@@ -58,16 +58,16 @@ Agentic coding workflows · custom skills & subagents · tool-calling pipelines 
 
 | Project | What it is |
 |---|---|
-| **[Portfolio — The Digital Architect](https://www.pranavraut.dev)** | Full-3D portfolio: fly through a synthwave world built with Preact + Three.js, or switch to a plain résumé view |
+| **[Portfolio: The Digital Architect](https://www.pranavraut.dev)** | Full-3D portfolio: fly through a synthwave world built with Preact + Three.js, or switch to a plain résumé view |
 | **[WebSecScan](https://web-sec-scan.vercel.app)** | Web security scanner with live demo, versioned releases, and CI ([repo](https://github.com/Pranavraut033/WebSecScan)) |
-| **[WeatherInsight](https://github.com/Pranavraut033/WeatherInSight)** | German weather data platform: Python/Spark/Airflow pipeline over raw DWD data into MinIO + PostgreSQL, 67 engineered features behind a FastAPI layer with auth & rate limiting, Prometheus/Grafana monitoring — 159 tests, 85% coverage |
-| **[Local Media Discovery](https://github.com/Pranavraut033/local-media-discovery-app)** | Privacy-first, local-only media feed: turns your photo/video library into a ranked swipeable PWA — Fastify + Next.js + BullMQ, no cloud, no telemetry |
+| **[WeatherInsight](https://github.com/Pranavraut033/WeatherInSight)** | German weather data platform: Python/Spark/Airflow pipeline over raw DWD data into MinIO + PostgreSQL, 67 engineered features behind a FastAPI layer with auth & rate limiting, and Prometheus/Grafana monitoring, with 159 tests and 85% coverage |
+| **[Local Media Discovery](https://github.com/Pranavraut033/local-media-discovery-app)** | Privacy-first, local-only media feed: turns your photo/video library into a ranked, swipeable PWA (Fastify + Next.js + BullMQ) with no cloud dependency and no telemetry |
 | **[thetascreener](https://thetascreener-ten.vercel.app)** | Options screener built with Next.js |
 | **[telegram-backup](https://github.com/Pranavraut033/telegram-backup)** | Python CLI for backing up Telegram media, with a full CI/release pipeline |
 
-**Professional work** — [DefiEdge](https://app.defiedge.io) (Senior Full-Stack Dev): led the platform revamp for a DeFi protocol managing **$20M TVL and $7.8B+ cumulative volume** — The Graph subgraphs indexing 6+ networks, page loads cut from ~4.5s to ~250ms, monolith split into services (~3s → ~300ms API responses) · **Maple Finance**: Next.js + Contentful marketing site rebrand — content updates went from days to minutes · **Eatabl** (founding engineer @ Rethynk): built from a blank repo to launch with 20+ restaurants and 100+ active users · **ReUseIT**: cross-platform recycling app with TensorFlow image recognition.
+**Professional work**: [DefiEdge](https://app.defiedge.io) (Senior Full-Stack Dev), led the platform revamp for a DeFi protocol managing **$20M TVL and $7.8B+ cumulative volume**, building The Graph subgraphs across 6+ networks that cut page loads from ~4.5s to ~250ms, and splitting the monolith into services that brought API responses down from ~3s to ~300ms. **Maple Finance**: Next.js + Contentful marketing site rebrand that cut content-update turnaround from days to minutes. **Eatabl** (founding engineer @ Rethynk): built from a blank repo to launch with 20+ restaurants and 100+ active users. **ReUseIT**: cross-platform recycling app with TensorFlow image recognition.
 
-**Open-source contributions** — [DefiLlama/DefiLlama-Adapters](https://github.com/DefiLlama/DefiLlama-Adapters) · [Zapper-fi/studio](https://github.com/Zapper-fi/studio) · [CamelotLabs/vaults-list](https://github.com/CamelotLabs/vaults-list) · [delta-hq/l2-lxp-liquidity-reward](https://github.com/delta-hq/l2-lxp-liquidity-reward)
+**Open-source contributions**: [DefiLlama/DefiLlama-Adapters](https://github.com/DefiLlama/DefiLlama-Adapters) · [Zapper-fi/studio](https://github.com/Zapper-fi/studio) · [CamelotLabs/vaults-list](https://github.com/CamelotLabs/vaults-list) · [delta-hq/l2-lxp-liquidity-reward](https://github.com/delta-hq/l2-lxp-liquidity-reward)
 
 ## 📊 Stats
 
@@ -84,12 +84,14 @@ Agentic coding workflows · custom skills & subagents · tool-calling pipelines 
 
 ## 📌 The Rest
 
-**Education** — M.Sc. Computer Science, IU International University of Applied Sciences, Berlin (2024–present) · B.E. Computer Science, MCT's Rajiv Gandhi Institute of Technology, Mumbai (2016–2020)
-**Thesis** — Human-in-the-Loop Override Policies for AI-Driven Sequential Decision Loops in Contested Environments: A LAWS Governance Perspective (2026)
-**Publication** — [Recognise Object for Visually Impaired Using Computer Vision](https://www.ijrte.org/wp-content/uploads/papers/v8i6/F9579038620.pdf) (IJRTE, 2020)
-**Certification** — Practical GitHub Actions (LinkedIn Learning)
-**Languages** — English (C1) · Hindi (native) · Gujarati (native) · German (A2)
-**Off the keyboard** — cycling · reading · gaming
+- **Education**:
+  - M.Sc. Computer Science, IU International University of Applied Sciences, Berlin (2024-present)
+  - B.E. Computer Science, MCT's Rajiv Gandhi Institute of Technology, Mumbai (2016-2020)
+- **Thesis**: Human-in-the-Loop Override Policies for AI-Driven Sequential Decision Loops in Contested Environments: A LAWS Governance Perspective (2026)
+- **Publication**: [Recognise Object for Visually Impaired Using Computer Vision](https://www.ijrte.org/wp-content/uploads/papers/v8i6/F9579038620.pdf) (IJRTE, 2020)
+- **Certification**: Practical GitHub Actions (LinkedIn Learning)
+- **Languages**: English (C1) · Hindi (native) · Gujarati (native) · German (A2, actively improving)
+- **Off the keyboard**: chess · walking · reading · gaming · cycling · cooking
 
 <div align="center">
 
