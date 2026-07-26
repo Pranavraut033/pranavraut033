@@ -73,10 +73,10 @@ Agentic coding workflows · custom skills & subagents · tool-calling pipelines 
 
 <div align="center">
 
-![Pranav's github stats](https://github-readme-stats.vercel.app/api?username=Pranavraut033&show_icons=true&theme=tokyonight&hide_border=true)
+![Pranav's github stats](https://github-readme-stats-eight-theta.vercel.app/api?username=Pranavraut033&show_icons=true&theme=tokyonight&hide_border=true)
 ![Streak stats](https://streak-stats.demolab.com?user=Pranavraut033&theme=tokyonight&hide_border=true)
 
-![Pranav's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Pranavraut033&layout=compact&theme=tokyonight&hide_border=true)
+![Pranav's top languages](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Pranavraut033&layout=compact&theme=tokyonight&hide_border=true)
 
 ![Pranav's contribution snake](./contribution.svg)
 
